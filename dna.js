@@ -1,5 +1,5 @@
 class DNA {
-  static mutationRate = 0.005;
+  static mutationRate = 0.05;
 
   constructor(parentDna) {
     this.foodAttraction = random(-2, 2);

@@ -6,7 +6,7 @@ let debug;
 
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight - 20);
-  for (let i = 0; i < 50; i++) {
+  for (let i = 0; i < 10; i++) {
     const x = random(width);
     const y = random(height);
     critters[i] = new Critter(x, y);
